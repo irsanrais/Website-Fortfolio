@@ -1,8 +1,13 @@
 .jumbotron {
-  padding: 2rem 1rem;
+  /* padding: 2rem 1rem; */
   background-color: #f3f4f5;
 }
 
 .jumbotron img {
   margin-bottom: 9px;
+  margin-top: 80px;
+}
+
+#about {
+  background-color: #a2d9ff;
 }
