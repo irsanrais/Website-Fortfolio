@@ -9,5 +9,30 @@
 }
 
 #about {
-  background-color: #a2d9ff;
+  margin-top: -3rem !important;
+  background-color: #273036;
+}
+
+#portfolio {
+  background-color: #f3f4f5;
+}
+
+#blog {
+  background-color: #273036;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+#team {
+  background-color: #f3f4f5;
+}
+
+#contact {
+  background-color: #273036;
+}
+
+footer {
+  background-color: #f3f4f5;
 }

@@ -10,7 +10,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow p-3">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow p-3 fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">Irsan Ra'is</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,16 +22,16 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
+              <a class="nav-link" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
+              <a class="nav-link" href="#blog">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Team</a>
+              <a class="nav-link" href="#team">Team</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
@@ -45,12 +45,12 @@
 
     <!-- Jumbotron -->
     <div class="jumbotron text-center">
-      <img src="img/Foto Profil.jpg" alt="Foto Profil" width="200px" height="200px" class="rounded-circle" />
+      <img src="img/Foto Profil.jpg" alt="Foto Profil" width="200px" height="200px" class="rounded-circle" style="margin-top: 120px" />
       <h1 class="display-4 fs-3 fw-bold">IRSAN RA'IS</h1>
       <p class="lead fs-4 fst-italic">Pegawai PPNPN | Programmer Freelance</p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="#a2d9ff"
+          fill="#273036"
           fill-opacity="1"
           d="M0,96L60,128C120,160,240,224,360,234.7C480,245,600,203,720,176C840,149,960,139,1080,122.7C1200,107,1320,85,1380,74.7L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
         ></path>
@@ -62,14 +62,228 @@
 
     <section id="about">
       <div class="container text-center">
-        <div class="row">
-          <div class="col">Column</div>
-          <div class="col">Column</div>
-          <div class="col">Column</div>
+        <div class="row mb-3 text-white">
+          <h3>About Me</h3>
+        </div>
+        <div class="row text-white">
+          <div class="col-md">
+            <figure class="figure">
+              <img src="img/2.jpg" class="figure-img img-fluid rounded img-thumbnail" alt="testing" style="height: 300px; width: 300px margin-top: 25px;" />
+              <figcaption class="figure-caption text-white">Bersama Staff BPHP Wil. V Palembang.</figcaption>
+            </figure>
+          </div>
+          <div class="col-md">
+            <p>
+              "Lulusan S1 Sistem Informasi dari Kampus UIN Raden Fatah Palembang dengan hobi mengembangkan website dan aplikasi Android. Memiliki pengalaman magang sebagai developer di perusahaan BUMN TVRI Palembang. Sedang mencari
+              tantangan baru untuk semakin berkembang.""
+            </p>
+
+            <p>
+              "Seorang individu yang teliti, pekerja keras, dan optimis yang mampu menyesuaikan diri dengan lingkungan yang dinamis, dengan pemahaman dan pendekatan yang melihat big picture dari suatu masalah. Memiliki pengetahuan luas
+              dalam bekerja sama dengan orang banyak dan kolaborasi proyek dengan berbagai tim dari latar belakang berbeda."
+            </p>
+
+            <p>"Sudah bekerja selama 3 tahun di kantor kementerian kehutanan pada Balai Pengelolaan Hutan Produksi Wilayah V Palembang. Bekerja pada bidang keuangan dan sistem aplikasi persediaan ATK dan Bahan Kerja Kantor."</p>
+          </div>
         </div>
       </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#f3f4f5"
+          fill-opacity="1"
+          d="M0,128L60,154.7C120,181,240,235,360,245.3C480,256,600,224,720,224C840,224,960,256,1080,272C1200,288,1320,288,1380,288L1440,288L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+        ></path>
+      </svg>
     </section>
 
     <!-- akhir about -->
+
+    <!-- Portfolio -->
+    <section id="portfolio">
+      <div class="container text-center">
+        <div class="row mb-3">
+          <h3>My Portfolio</h3>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/bus.jpg" class="card-img-top" alt="Project 1" />
+              <div class="card-body">
+                <p class="card-text">Aplikasi Pemesanan Tiket Bus berbasis Web.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/calculator.jpg" class="card-img-top" alt="Project 2" />
+              <div class="card-body">
+                <p class="card-text">Aplikasi Kalkulator Sederhana.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/laundry.jpg" class="card-img-top" alt="Project 3" />
+              <div class="card-body">
+                <p class="card-text">Aplikasi Kasir Laundry Berbasis Android.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#273036"
+          fill-opacity="1"
+          d="M0,128L60,154.7C120,181,240,235,360,218.7C480,203,600,117,720,106.7C840,96,960,160,1080,176C1200,192,1320,160,1380,144L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- akhir Portfolio -->
+
+    <!-- Awal Blog -->
+    <section id="blog">
+      <div class="container">
+        <div class="row text-center text-white mb-3">
+          <h3>My Blog</h3>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card border-dark" style="width: auto">
+              <img src="img/android.jpg" class="card-img-top" alt="android" />
+              <div class="card-body">
+                <h5 class="card-title">[100% Berhasil!] Cara Membuat Aplikasi Android Dengan Mudah</h5>
+                <p class="card-text">Bagi Anda yang kesulitan membuat aplikasi android, dalam artikel ini akan di jelaskan cara membuat aplikasi Android</p>
+                <a href="#" class="btn btn-primary">Klik Disini</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card border-dark">
+              <img src="img/html.jpg" class="card-img-top" alt="html" />
+              <div class="card-body">
+                <h5 class="card-title">Tutorial HTML Mudah : 4 Cara Memasukan Gambar di HTML</h5>
+                <p class="card-text">Pada artikel kali ini, akan dijelaskan secara detail panduan praktis tentang cara memasukan gambar di HTML.</p>
+                <a href="#" class="btn btn-primary">Klik Disini</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card border-dark">
+              <img src="img/php.jpg" class="card-img-top" alt="php" />
+              <div class="card-body">
+                <h5 class="card-title">Penjelasan tentang PHP Login dan Panduan Cara Membuatnya</h5>
+                <p class="card-text">Apa itu login? login atau sign in adalah istilah yang digunakan untuk keamanan sistem sebelum menggunakan sistem tersebut.</p>
+                <a href="#" class="btn btn-primary">Klik Disini</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#f3f4f5"
+          fill-opacity="1"
+          d="M0,128L60,154.7C120,181,240,235,360,245.3C480,256,600,224,720,224C840,224,960,256,1080,272C1200,288,1320,288,1380,288L1440,288L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+
+    <!-- akhir Blog -->
+
+    <!-- Awal Team -->
+    <section id="team">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <h3>Meet Our Team</h3>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="img/luffy.jpg" class="card-img-top" alt="luffy" />
+              <div class="card-body">
+                <h5 class="card-title">Monkey D. Luffy</h5>
+                <p class="card-text">Kapten</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/kakashi.jpg" class="card-img-top" alt="kaka" />
+              <div class="card-body">
+                <h5 class="card-title">Kakashi</h5>
+                <p class="card-text">Engineer</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/woody.jpg" class="card-img-top" alt="woody" />
+              <div class="card-body">
+                <h5 class="card-title">Woody</h5>
+                <p class="card-text">Front End Dev</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/siapanih.jpg" class="card-img-top" alt="todoroki" />
+              <div class="card-body">
+                <h5 class="card-title">Todoroki</h5>
+                <p class="card-text">Team Manager</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#273036"
+          fill-opacity="1"
+          d="M0,224L60,224C120,224,240,224,360,213.3C480,203,600,181,720,170.7C840,160,960,160,1080,160C1200,160,1320,160,1380,160L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- akhir Team -->
+
+    <!-- awal contact -->
+    <section id="contact">
+      <div class="container text-white">
+        <div class="row text-center">
+          <h3>Contact Me</h3>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-8 mb-3">
+            <label for="exampleFormControlInput1" class="form-label"></label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Input Your Name" />
+          </div>
+          <div class="col-md-8 mb-3">
+            <label for="exampleFormControlInput1" class="form-label"></label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
+          </div>
+          <div class="col-md-8 mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label"></label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="col-md-8 mb-3">
+            <button type="button" class="btn btn-primary">Send</button>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#f3f4f5"
+          fill-opacity="1"
+          d="M0,224L40,224C80,224,160,224,240,234.7C320,245,400,267,480,245.3C560,224,640,160,720,165.3C800,171,880,245,960,277.3C1040,309,1120,299,1200,293.3C1280,288,1360,288,1400,288L1440,288L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- akhir contact -->
+
+    <!-- footer -->
+    <footer class="text-center">
+      <p>Created With Love by <a href="https://www.instagram.com/irsanrais/" style="color: black">Irsan Ra'is</a></p>
+    </footer>
+    <!-- akhir footer -->
   </body>
 </html>
